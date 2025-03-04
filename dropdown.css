@@ -1,0 +1,125 @@
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: #ffa500;
+     flex: 1;
+}
+
+#dashboard h1 {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 60px;
+    padding: 50px 0;
+    margin: 0;
+    width: 100%;
+}
+.wash {
+    background-color: #94c8f5;
+    padding: 1px ; 
+    padding-bottom: 10px;
+   
+    
+}
+#dashboard h2, #dashboard h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#dashboard p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.ched-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.ched-info h2 {
+    font-size: 24px; 
+    font-weight: normal; 
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    gap: 5px; /
+}
+
+.ched-info img {
+    max-width: 300px; 
+    height: auto;
+}
+
+.ched-info p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    width: 100%;
+}
+
+
+#dashboard .abet-container, #dashboard .employability-container, #dashboard .ched-info {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+hr {
+    border: none;
+    height: 10px;
+    background-color: white;
+    opacity: 0.5;
+    width: 80%;
+    margin: 30px auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.abet-container, .employability-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.abet-container img, .employability-container img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+
+.target {
+    background-color: aliceblue;
+}
+
+
+
+.mapuasite {
+    text-align: center;
+    background-color: #19bebe;
+    border-top: 3px solid #19bebe;
+    border-bottom: 3px solid #19bebe;
+    padding: 5px;
+    margin-top: auto;
+}

@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #f5f0eb;
+    text-align: center;
+}
+.title {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 40px;
+    border-top: 10px solid aquamarine;
+    border-bottom: 10px solid #ce5b71;
+    margin: 0;
+}
+
+
+html, body {
+    height: 100%; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex: 1; 
+}
+
+.mapuasite {
+    text-align: center;
+    background-color: #19bebe;
+    border-top: 3px solid #19bebe;
+    border-bottom: 3px solid #19bebe;
+    padding: 5px;
+    margin-top: auto; 
+}
+
+
+#sem h2,
+#coce h2,
+#eca h2,
+#contact h2 {
+    font-size: 60px;
+    background-color: azure;
+    margin: 50px;
+    color: black;
+    font-weight: normal;
+}
+
+
+.cc-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cc {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cc-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.cc img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+.cc h3 {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.cc p {
+    padding-top: 10px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+
+    #sem h2,
+    #coce h2,
+    #eca h2 {
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .cc {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cc-item {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .cc img {
+        width: 100%;
+    }
+
+    .mapuasite {
+        font-size: 14px;
+    }
+}
